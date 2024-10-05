@@ -14,7 +14,7 @@ const getQR = async (e)=>{
     
 }
 
-// code for dounload qr
+// code for download qr
 const downloadQr=()=>{
     if(!QRurl) return;
     const link=document.createElement("a");
